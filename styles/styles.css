@@ -516,6 +516,7 @@ body {
   fill: black;
 }
 .footer-img {
+  display: block;
   padding-top: 40px;
 }
 .footer-logo:hover {
