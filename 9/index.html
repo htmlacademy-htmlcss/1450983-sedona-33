@@ -374,7 +374,7 @@
       </div>
     </footer>
 
-    <!-- Чтобы открыть модальное окно уберите class modal-container-close  -->
+    <!-- Чтобы открыть модальное окно уберите class modal-container-close -->
 
     <div class="modal-container modal-container-close">
       <div class="modal modal-auth">
@@ -383,124 +383,122 @@
         </button>
         <section class="modal-content">
           <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
-          <form
-            class="form-search"
-            action="https://echo.htmlacademy.ru"
-            method="post"
-          >
-            <div class="form-search__input-block">
-              <label class="form-search__label" for="arrival"
-                >Дата заезда:</label
-              >
-
-              <input
-                class="form-search__input-text"
-                type="text"
-                name="arrival"
-                placeholder="27 апреля 2020"
-                required=""
-              />
-              <p class="error">Мы не можем отправить вас в прошлое.</p>
-            </div>
-
-            <div class="form-search__input-block">
-              <label class="form-search__label" for="departure"
-                >Дата выезда:</label
-              >
-
-              <input
-                class="form-search__input-text"
-                type="text"
-                name="departure"
-                placeholder="1 сентября 2020"
-                required=""
-              />
-              <p class="no-error">
-                На эти даты есть свободные номера. Пока есть.
-              </p>
-            </div>
-
-            <div class="form-search__input-block-one">
-              <div class="form-search__quantity">
-                <label class="form-search__label" for="adults">Взрослые:</label>
-
-                <button
-                  class="form-search__button form-search__button-minus"
-                  type="button"
-                  aria-label="Уменьшить"
-                ></button>
-
-                <input
-                  class="form-search__input-text-two form-search__input-number"
-                  type="text"
-                  name="adults"
-                  placeholder="2"
-                  required=""
-                />
-
-                <button
-                  class="form-search__button form-search__button-plus"
-                  type="button"
-                  aria-label="Увеличить"
-                ></button>
-              </div>
-
-              <div class="form-search__quantity">
-                <span class="form-label form-label-icon"></span>
-                <label
-                  class="form-search__label form-search__label-children"
-                  for="children"
-                  >Дети:</label
-                ><span class="tooltip">
-                  <button
-                    class="tooltip-toggle"
-                    type="button"
-                    aria-labelledby="tooltip-label"
-                  >
-                    <svg
-                      class="tooltip-icon"
-                      width="25"
-                      height="25"
-                      viewBox="0 0 25 25"
-                      fill="currentcolor"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <circle cx="12.5" cy="12.5" r="12.5" />
-                      <path d="M12 17H13V11H12V17Z" fill="white" />
-                      <path d="M13 8H12V9H13V8Z" fill="white" />
-                    </svg>
-                  </button>
-                  <span class="tooltip-text" role="tooltip" id="tooltip-label"
-                    >Укажите количество детей,<br />
-                    которые будут с вами, возраст<br />
-                    которых от 6 до 18 лет. Дети <br />
-                    до 6 лет размещаются <br />
-                    бесплатно.</span
-                  >
-                </span>
-                <button
-                  class="form-search__button form-search__button-minus"
-                  type="button"
-                  aria-label="Уменьшить"
-                ></button>
-
-                <input
-                  class="form-search__input-text-two form-search__input-number"
-                  type="text"
-                  name="children"
-                  placeholder="1"
-                />
-
-                <button
-                  class="form-search__button form-search__button-plus"
-                  type="button"
-                  aria-label="Увеличить"
-                ></button>
-              </div>
-            </div>
-            <button class="button-blue" type="submit">Найти</button>
-          </form>
         </section>
+        <form
+          class="form-search"
+          action="https://echo.htmlacademy.ru"
+          method="post"
+        >
+          <div class="form-search__input-block">
+            <label class="form-search__label" for="arrival">Дата заезда:</label>
+
+            <input
+              class="form-search__input-text"
+              type="text"
+              name="arrival"
+              placeholder="27 апреля 2020"
+              required=""
+            />
+            <p class="error">Мы не можем отправить вас в прошлое.</p>
+          </div>
+
+          <div class="form-search__input-block">
+            <label class="form-search__label" for="departure"
+              >Дата выезда:</label
+            >
+
+            <input
+              class="form-search__input-text"
+              type="text"
+              name="departure"
+              placeholder="1 сентября 2020"
+              required=""
+            />
+            <p class="no-error">
+              На эти даты есть свободные номера. Пока есть.
+            </p>
+          </div>
+
+          <div class="form-search__input-block-one">
+            <div class="form-search__quantity-one">
+              <label class="form-search__label" for="adults">Взрослые:</label>
+
+              <button
+                class="form-search__button form-search__button-minus"
+                type="button"
+                aria-label="Уменьшить"
+              ></button>
+
+              <input
+                class="form-search__input-text-two form-search__input-number"
+                type="text"
+                name="adults"
+                placeholder="2"
+                required=""
+              />
+
+              <button
+                class="form-search__button form-search__button-plus"
+                type="button"
+                aria-label="Увеличить"
+              ></button>
+            </div>
+
+            <div class="form-search__quantity">
+              <span class="form-label form-label-icon"></span>
+              <label
+                class="form-search__label form-search__label-children"
+                for="children"
+                >Дети:</label
+              ><span class="tooltip">
+                <button
+                  class="tooltip-toggle"
+                  type="button"
+                  aria-labelledby="tooltip-label"
+                >
+                  <svg
+                    class="tooltip-icon"
+                    width="25"
+                    height="25"
+                    viewBox="0 0 25 25"
+                    fill="currentcolor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="12.5" cy="12.5" r="12.5" />
+                    <path d="M12 17H13V11H12V17Z" fill="white" />
+                    <path d="M13 8H12V9H13V8Z" fill="white" />
+                  </svg>
+                </button>
+                <span class="tooltip-text" role="tooltip" id="tooltip-label"
+                  >Укажите количество детей,<br />
+                  которые будут с вами, возраст<br />
+                  которых от 6 до 18 лет. Дети <br />
+                  до 6 лет размещаются <br />
+                  бесплатно.</span
+                >
+              </span>
+              <button
+                class="form-search__button form-search__button-minus"
+                type="button"
+                aria-label="Уменьшить"
+              ></button>
+
+              <input
+                class="form-search__input-text-two form-search__input-number"
+                type="text"
+                name="children"
+                placeholder="1"
+              />
+
+              <button
+                class="form-search__button form-search__button-plus"
+                type="button"
+                aria-label="Увеличить"
+              ></button>
+            </div>
+          </div>
+          <button class="button-blue" type="submit">Найти</button>
+        </form>
       </div>
     </div>
   </body>
